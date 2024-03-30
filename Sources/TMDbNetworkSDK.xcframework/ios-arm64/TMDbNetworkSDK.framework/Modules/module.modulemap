@@ -1,0 +1,11 @@
+framework module TMDbNetworkSDK {
+  umbrella header "TMDbNetworkSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module TMDbNetworkSDK.Swift {
+  header "TMDbNetworkSDK-Swift.h"
+  requires objc
+}

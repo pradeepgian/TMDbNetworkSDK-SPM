@@ -1,0 +1,838 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMDbNetworkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TMDbNetworkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMDbNetworkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TMDbNetworkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMDbNetworkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TMDbNetworkSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TMDbNetworkClient",
+        "printedName": "TMDbNetworkClient",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TMDbNetworkClient",
+                "printedName": "TMDbNetworkSDK.TMDbNetworkClient",
+                "usr": "s:14TMDbNetworkSDK0aB6ClientC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14TMDbNetworkSDK0aB6ClientC6apiKeyACSS_tcfc",
+            "mangledName": "$s14TMDbNetworkSDK0aB6ClientC6apiKeyACSS_tcfc",
+            "moduleName": "TMDbNetworkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchPopularMovies",
+            "printedName": "fetchPopularMovies()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<τ_0_0, Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TMDbNetworkSDK0aB6ClientC18fetchPopularMovies7Combine12AnyPublisherVyxs5Error_pGySeRzlF",
+            "mangledName": "$s14TMDbNetworkSDK0aB6ClientC18fetchPopularMovies7Combine12AnyPublisherVyxs5Error_pGySeRzlF",
+            "moduleName": "TMDbNetworkSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchLatestMovies",
+            "printedName": "fetchLatestMovies()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<τ_0_0, Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TMDbNetworkSDK0aB6ClientC17fetchLatestMovies7Combine12AnyPublisherVyxs5Error_pGySeRzlF",
+            "mangledName": "$s14TMDbNetworkSDK0aB6ClientC17fetchLatestMovies7Combine12AnyPublisherVyxs5Error_pGySeRzlF",
+            "moduleName": "TMDbNetworkSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14TMDbNetworkSDK0aB6ClientC",
+        "mangledName": "$s14TMDbNetworkSDK0aB6ClientC",
+        "moduleName": "TMDbNetworkSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMDbNetworkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMDbNetworkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethod",
+        "printedName": "HTTPMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TMDbNetworkSDK.HTTPMethod.Type) -> TMDbNetworkSDK.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TMDbNetworkSDK.HTTPMethod",
+                    "usr": "s:14TMDbNetworkSDK10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMDbNetworkSDK.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "TMDbNetworkSDK.HTTPMethod",
+                        "usr": "s:14TMDbNetworkSDK10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TMDbNetworkSDK10HTTPMethodO3getyA2CmF",
+            "mangledName": "$s14TMDbNetworkSDK10HTTPMethodO3getyA2CmF",
+            "moduleName": "TMDbNetworkSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TMDbNetworkSDK.HTTPMethod.Type) -> TMDbNetworkSDK.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TMDbNetworkSDK.HTTPMethod",
+                    "usr": "s:14TMDbNetworkSDK10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMDbNetworkSDK.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "TMDbNetworkSDK.HTTPMethod",
+                        "usr": "s:14TMDbNetworkSDK10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TMDbNetworkSDK10HTTPMethodO4postyA2CmF",
+            "mangledName": "$s14TMDbNetworkSDK10HTTPMethodO4postyA2CmF",
+            "moduleName": "TMDbNetworkSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TMDbNetworkSDK.HTTPMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TMDbNetworkSDK.HTTPMethod",
+                    "usr": "s:14TMDbNetworkSDK10HTTPMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14TMDbNetworkSDK10HTTPMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14TMDbNetworkSDK10HTTPMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "TMDbNetworkSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TMDbNetworkSDK10HTTPMethodO8rawValueSSvp",
+            "mangledName": "$s14TMDbNetworkSDK10HTTPMethodO8rawValueSSvp",
+            "moduleName": "TMDbNetworkSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TMDbNetworkSDK10HTTPMethodO8rawValueSSvg",
+                "mangledName": "$s14TMDbNetworkSDK10HTTPMethodO8rawValueSSvg",
+                "moduleName": "TMDbNetworkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14TMDbNetworkSDK10HTTPMethodO",
+        "mangledName": "$s14TMDbNetworkSDK10HTTPMethodO",
+        "moduleName": "TMDbNetworkSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMDbNetworkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TMDbNetworkSDK.NetworkError.Type) -> TMDbNetworkSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "TMDbNetworkSDK.NetworkError",
+                    "usr": "s:14TMDbNetworkSDK0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMDbNetworkSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "TMDbNetworkSDK.NetworkError",
+                        "usr": "s:14TMDbNetworkSDK0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TMDbNetworkSDK0B5ErrorO10invalidURLyA2CmF",
+            "mangledName": "$s14TMDbNetworkSDK0B5ErrorO10invalidURLyA2CmF",
+            "moduleName": "TMDbNetworkSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TMDbNetworkSDK.NetworkError.Type) -> TMDbNetworkSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "TMDbNetworkSDK.NetworkError",
+                    "usr": "s:14TMDbNetworkSDK0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMDbNetworkSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "TMDbNetworkSDK.NetworkError",
+                        "usr": "s:14TMDbNetworkSDK0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TMDbNetworkSDK0B5ErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s14TMDbNetworkSDK0B5ErrorO15invalidResponseyA2CmF",
+            "moduleName": "TMDbNetworkSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TMDbNetworkSDK.NetworkError.Type) -> (Swift.Int) -> TMDbNetworkSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> TMDbNetworkSDK.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "TMDbNetworkSDK.NetworkError",
+                        "usr": "s:14TMDbNetworkSDK0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TMDbNetworkSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "TMDbNetworkSDK.NetworkError",
+                        "usr": "s:14TMDbNetworkSDK0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TMDbNetworkSDK0B5ErrorO10statusCodeyACSicACmF",
+            "mangledName": "$s14TMDbNetworkSDK0B5ErrorO10statusCodeyACSicACmF",
+            "moduleName": "TMDbNetworkSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TMDbNetworkSDK0B5ErrorO2idSSvp",
+            "mangledName": "$s14TMDbNetworkSDK0B5ErrorO2idSSvp",
+            "moduleName": "TMDbNetworkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TMDbNetworkSDK0B5ErrorO2idSSvg",
+                "mangledName": "$s14TMDbNetworkSDK0B5ErrorO2idSSvg",
+                "moduleName": "TMDbNetworkSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14TMDbNetworkSDK0B5ErrorO",
+        "mangledName": "$s14TMDbNetworkSDK0B5ErrorO",
+        "moduleName": "TMDbNetworkSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMDbNetworkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TMDbSDKConstants",
+        "printedName": "TMDbSDKConstants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "imageBaseURL",
+            "printedName": "imageBaseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TMDbNetworkSDK0A12SDKConstantsO12imageBaseURLSSvpZ",
+            "mangledName": "$s14TMDbNetworkSDK0A12SDKConstantsO12imageBaseURLSSvpZ",
+            "moduleName": "TMDbNetworkSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TMDbNetworkSDK0A12SDKConstantsO12imageBaseURLSSvgZ",
+                "mangledName": "$s14TMDbNetworkSDK0A12SDKConstantsO12imageBaseURLSSvgZ",
+                "moduleName": "TMDbNetworkSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14TMDbNetworkSDK0A12SDKConstantsO",
+        "mangledName": "$s14TMDbNetworkSDK0A12SDKConstantsO",
+        "moduleName": "TMDbNetworkSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TMDbNetworkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/TMDbNetworkService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 877,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/TMDbNetworkService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 910,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/EndPoints\/PopularMoviesEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/EndPoints\/PopularMoviesEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 20,
+      "value": "\"api.themoviedb.org\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/EndPoints\/PopularMoviesEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 18,
+      "value": "\"\/3\/movie\/popular\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/EndPoints\/PopularMoviesEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 9,
+      "value": "\"api_key\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/Utility\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/Utility\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/Utility\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/Utility\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/Utility\/NetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 12,
+      "value": "\"InvalidURL\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/Utility\/NetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 17,
+      "value": "\"InvalidResponse\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/Utility\/NetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 25,
+      "value": "\"StatusCode\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/Utility\/NetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 499,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/Utility\/EndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 38,
+      "value": "\"https:\/\/image.tmdb.org\/t\/p\/original\/\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/EndPoints\/LatestMoviesEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/EndPoints\/LatestMoviesEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 20,
+      "value": "\"api.themoviedb.org\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/EndPoints\/LatestMoviesEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 22,
+      "value": "\"\/3\/movie\/now_playing\""
+    },
+    {
+      "filePath": "\/Users\/pradeepgianchandani\/Documents\/Dev-Rev-Assignment-Final\/TMDbNetworkSDK\/TMDbNetworkSDK\/EndPoints\/LatestMoviesEndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 9,
+      "value": "\"api_key\""
+    }
+  ]
+}
